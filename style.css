@@ -1,0 +1,53 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: monospace;
+}
+
+.canvas {
+  position: absolute;
+  background-color: aliceblue;
+}
+
+.scoreListContainer {
+  visibility: hidden;
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  top: 125px;
+  left: 250px;
+  transform: translate(-50%, -50%);
+}
+
+.scoreList {
+  list-style: none;
+}
+
+.playAgainBtn {
+  padding: 5px 20px;
+}
+
+.startBtnContainer {
+  visibility: hidden;
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  top: 125px;
+  left: 250px;
+  transform: translate(-50%, -50%);
+}
+
+.input {
+  padding: 5px 20px;
+  background-color: rgb(219, 219, 219);
+  border: none;
+}
+
+.startBtn {
+  padding: 5px 20px;
+}
